@@ -18,13 +18,13 @@ programa {
     leia(operador)
 
     se(operador == 1){
-      escreva("\n",num01," + ",num02," = ",num01+num02)
+      escreva("\n",valor01," + ",valor02," = ",valor01+valor02)
     }senao se(operador == 2){
-      escreva("\n",num01," - ",num02," = ",num01-num02)
+      escreva("\n",valor01," - ",valor02," = ",valor01-valor02)
     }senao se(operador == 3){
-      escreva("\n",num01," * ",num02," = ",num01*num02)
+      escreva("\n",valor01," * ",valor02," = ",valor01*valor02)
     }senao{
-      escreva("\n",num01," / ",num02," = ",num01/num02)
+      escreva("\n",valor01," / ",valor02," = ",valor01/valor02)
     }
     escreva("\n deseja realizar uma nova conta?")
     escreva("\n 1 - sim")
