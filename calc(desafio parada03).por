@@ -1,8 +1,7 @@
 programa {
   funcao inicio() {
     real valor01, valor02, total
-    inteiro operador
-    cadeia repetir
+    inteiro operador, repetir
 
     faca{
     escreva("Digite o 1° valor: ")
