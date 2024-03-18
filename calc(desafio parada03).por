@@ -1,26 +1,27 @@
 programa {
   funcao inicio() {
-    real num01, num02, total
-    inteiro operacao
-    cadeia continuar
+    real valor01, valor02, total
+    inteiro operador
+    cadeia repetir
+
     faca{
     escreva("Digite o 1° valor: ")
-    leia(num01)
+    leia(valor01)
     escreva("Digite o 2° valor: ")
-    leia(num02)
-    escreva("\n escolha  operador:")
+    leia(valor02)
+    escreva("\n escolha operador:")
     escreva("\n 1 - soma")
     escreva("\n 2 - subtração")
     escreva("\n 3 - multiplicação")
     escreva("\n 4 - divisão")
-    escreva("\n digite o número do operador: ")
-    leia(operacao)
+    escreva("\n digite o número do operador desejado: ")
+    leia(operador)
 
-    se(operacao == 1){
+    se(operador == 1){
       escreva("\n",num01," + ",num02," = ",num01+num02)
-    }senao se(operacao == 2){
+    }senao se(operador == 2){
       escreva("\n",num01," - ",num02," = ",num01-num02)
-    }senao se(operacao == 3){
+    }senao se(operador == 3){
       escreva("\n",num01," * ",num02," = ",num01*num02)
     }senao{
       escreva("\n",num01," / ",num02," = ",num01/num02)
@@ -29,7 +30,7 @@ programa {
     escreva("\n 1 - sim")
     escreva("\n 2 - não")
     escreva("\n R: ")
-    leia(continuar)
-    } enquanto (continuar == 1)
+    leia(repetir)
+    } enquanto (repetir == 1)
   }
 }
